@@ -6,7 +6,7 @@
  */
 
  //global variable 
- const vowel = ['a','e', 'i','o','u']; //vowel arrays contains all the vowels
+ const vowel = ['a','e', 'i','o','u','A','E','I','O','U']; //vowel arrays contains all the vowels
 
 
  //function name: vowelCount()

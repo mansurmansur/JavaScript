@@ -5,10 +5,6 @@
  *              😁
  */
 
- //global variable 
- const vowel = ['a','e', 'i','o','u','A','E','I','O','U']; //vowel arrays contains all the vowels
-
-
  //function name: vowelCount()
  //parameter: str
  //algorithmn:
@@ -17,16 +13,14 @@
  //         3. return count
  function vowelCount(str){
      //variable
+     const vowel = "aeiou"
      let count = 0;
 
      //loop through the string
      for (let i= 0; i< str.length; i++) {
-        for (let j = 0; j < vowel.length; j++) {
-            if(str[i] == vowel[j]){
-                count++;
-                break;
-            }
-        }
+       if (vowel.includes(str[i])) {
+           count++;
+       }
      }
 
      //return the value

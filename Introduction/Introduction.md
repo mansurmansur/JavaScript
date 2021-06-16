@@ -19,6 +19,21 @@ browsers provide APIs that provide I/O.
 ## JavaScript Fundamentals
 
 ### Variables 
+- A variable is a container used for storing data. In JavaScript there are 2 ways of declaring a variable:
+  a) using the keyword **let**
+   ```javascript
+   let username = 'mansursaid'
+   let x = 5
+   ```
+  b) using the keyword **var**
+   ```javascript
+   var id = 12567
+   var y = 'Missed u'
+   ```
+   **note:**
+   - let declares a blocked scoped or local variable while var is a function scoped
+
+- There is also contant which creates a read-only.
 ### Data types
 ### Type conversions
 ### Conditional branching

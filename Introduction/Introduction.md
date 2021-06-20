@@ -56,6 +56,23 @@ browsers provide APIs that provide I/O.
  - undefined - value not assigned
  -> object is a more complex data structure
 ### Type conversions
+- Many times, operators and functions automatically convert the values given to them to the right type.
+- String conversion
+```JavaScript
+let temp = false
+alert(typeof value) //boolean
+
+result = String(temp);
+alert(typeof value) //string
+```
+-Numeric Conversion
+```JavaScript
+let str = 345
+let num = Number(str) //becomes a number
+
+let size = "Seventy two"
+let temp = Number(size) //NaN conversion failed
+```
 ### Conditional branching
 ### Basic operators, maths
 ### Logiacl operators

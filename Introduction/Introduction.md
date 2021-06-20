@@ -35,6 +35,26 @@ browsers provide APIs that provide I/O.
 
 - There is also contant which creates a read-only.
 ### Data types
+- there are 8 basic data types in javascript.
+ -> number - numbers of any kind: integer, flaoting-points.
+ ```JavaScript
+ //nor error
+ //This is called dynamically typed
+ let message = "hello";
+ message = 123445;
+ 
+ //Numbers
+ let n = 1234
+ n= 12.568
+ ```
+ -> String - must be surrounded by quotes.
+ ```JavaScript
+ let name = "John"
+ ``` 
+ -> Boolean - it has 2 values: true and false
+ -> null type - a null is reference to a non-existing object.
+ -> undefined - value not assigned
+ -> object is a more complex data structure
 ### Type conversions
 ### Conditional branching
 ### Basic operators, maths

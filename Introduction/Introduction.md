@@ -65,7 +65,7 @@ alert(typeof value) //boolean
 result = String(temp);
 alert(typeof value) //string
 ```
--Numeric Conversion
+- Numeric Conversion
 ```JavaScript
 let str = 345
 let num = Number(str) //becomes a number

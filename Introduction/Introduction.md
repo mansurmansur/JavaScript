@@ -73,6 +73,9 @@ let num = Number(str) //becomes a number
 let size = "Seventy two"
 let temp = Number(size) //NaN conversion failed
 ```
+- Boolean Conversion
+ - Values that are intuitively "empty", like 0, an empty string, null, undefined , and NaN become false.
+ - Other values become true.
 ### Conditional branching
 ### Basic operators, maths
 ### Logiacl operators

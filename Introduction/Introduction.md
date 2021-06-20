@@ -73,10 +73,27 @@ let num = Number(str) //becomes a number
 let size = "Seventy two"
 let temp = Number(size) //NaN conversion failed
 ```
-- Boolean Conversion
- a) Values that are intuitively "empty", like 0, an empty string, null, undefined , and NaN become false.
+- Boolean Conversion <br />
+ a) Values that are intuitively "empty", like 0, an empty string, null, undefined , and NaN become false. <br />
  b) Other values become true.
+ 
+ ```JavaSCcipt
+ let accessAllowed;
+let age = prompt('How old are you?', '');
+
+if (age > 18) {
+  accessAllowed = true;
+} else {
+  accessAllowed = false;
+}
+
+alert(accessAllowed);
+```
+
 ### Conditional branching
+- we can use if statement and the conditional operator '?' which is called a block of code.
+- if statements analizes the condition  in the parentheses and, if the result is true,the code block of code.
+- ternary. the operrand
 ### Basic operators, maths
 ### Logiacl operators
 ### Nullish coalescing operator '??'

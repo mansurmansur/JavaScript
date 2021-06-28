@@ -97,7 +97,33 @@ alert(accessAllowed);
 ### Basic operators, maths
 ### Logiacl operators
 ### Nullish coalescing operator '??'
-### Loops
+### Loops & Iteration
+- loops offer a way to do an action repeatedly. there are different kinds of loops but they all do the same thing. 
+- each loop offer different ways to determine the start and end points of the loop. there are some situations that are more served by one type of a loop over the other.
+- examples of loops in javascript:
+  a) for loop <br />
+  -----------
+  for loop has 3 parts: {start/initialExpression, condition, steps/incrementExpression}. 
+  - the initial experession usually initializes one or more loop counters.
+  - the condition expression is evaluated each time the loop repeats. if the condition expression is *true* the loop executes and stops if it is *false*.
+  - then increment expression is executed.
+  ```
+    for([initialExpression]; [conditionExpression]; [incrementExpression]){
+      statement //body of the loop
+    }
+  ```
+  -------------
+  b) while loop <br />
+  c) do...while loop <br />
+  ------------------
+  d) for...in loop <br />
+  ----------------
+  e) for...of loop <br />
+  ----------------
+- there are some statements used in loop that are also important e.g.
+  a) labeled statement <br />
+  b) break statement <br />
+  c) continue statement <br />
 ### swich 
 ### Functions && Function expressions
 ### Arrow functions

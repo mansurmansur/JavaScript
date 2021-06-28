@@ -100,14 +100,13 @@ alert(accessAllowed);
 ### Loops & Iteration
 - loops offer a way to do an action repeatedly. there are different kinds of loops but they all do the same thing. 
 - each loop offer different ways to determine the start and end points of the loop. there are some situations that are more served by one type of a loop over the other.
-- examples of loops in javascript:
-  a) for loop <br />
-  -----------
+- examples of loops in javascript: <br />
+  #### a) for loop <br /> ####
   for loop has 3 parts: {start/initialExpression, condition, steps/incrementExpression}. 
   - the initial experession usually initializes one or more loop counters.
   - the condition expression is evaluated each time the loop repeats. if the condition expression is *true* the loop executes and stops if it is *false*.
   - then increment expression is executed.
-  ```
+  ``` javascript
     for([initialExpression]; [conditionExpression]; [incrementExpression]){
       statement //body of the loop
     }

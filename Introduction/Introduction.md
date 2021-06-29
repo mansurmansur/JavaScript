@@ -180,7 +180,9 @@ for (let i of arr) {
 
  ```
 
-- there are some statements used in loop that are also important e.g.
+ <br />
+
+there are some statements used in loop that are also important e.g.
   #### a) labeled statement
   - a label provides a statement with an identifier that lets you refer to it else where in your program.
   - The syntax for label

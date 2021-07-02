@@ -10,7 +10,7 @@ JavaScript can get executed on web browsers. Web browsers have imbeded JavaScrip
 - Chakra - IE
 - SquirrelFish - Safari
 
-JavaScript had relation to java to help it as a new language since Java was popular that time. Since then JavaScript has evolved and now has its own standards called ECMAScript Specification. ECMAScript standards does not include any I/O like:
+JavaScript had relation to java to help it as a new language since Java was popular that time. Since then JavaScript has evolved and now has its own standards called ECMAScript Specification. ECMAScript standards does not include any I/O like:             
 - Networking
 - Storage
 - Graphics

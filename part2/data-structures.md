@@ -25,3 +25,24 @@ in type safe languages such as C#, Java,C & C++ arrays have predefined size and 
 | array.unshift | O(n) | inserts element(s) to the beginning of the array |
 | array.slice | O(n) | returns a copy of the array from beginning to end |
 | array.splice | O(n) | changes (add/remove) the array |
+
+- array insertions
+```JavaScript
+arr = []; //initializing empty array
+
+//insert items using push
+arr.push("JavaScript");
+arr.push("Java");
+
+//print to console
+console.log(arr); //=> ["JavaScript", "Java"]
+
+arr = []; //reinitialize array
+
+//insert items using unshift
+arr.unshift("C#");
+arr.unshift("C++");
+
+//print to console
+console.log(arr); //=> ["C#","C++"]
+```

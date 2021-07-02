@@ -46,3 +46,11 @@ arr.unshift("C++");
 //print to console
 console.log(arr); //=> ["C#","C++"]
 ```
+
+## HashMaps
+maps, dictionaries, and associative arrays all describe the same abstract data type. but hash map implementations are distinct treemap implementations in that one <br />
+uses a hash table and one uses a binary search tree. <br />
+HashMaps uses labels to reference data, which could a string, number, object or anything. internally it uses an array, and it maps the labes to array indexes using a hash function.
+There are 2 ways to implement hashmap:
+ 1. Array
+ 2. Binary Search Tree
